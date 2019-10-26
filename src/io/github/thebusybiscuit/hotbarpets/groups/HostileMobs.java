@@ -35,7 +35,7 @@ public final class HostileMobs implements PetGroup {
 				new ItemStack(Material.STRING), SlimefunItems.GOLD_16K, new ItemStack(Material.STRING)
 		}).register();
 
-		new GhastPet(new CustomItem(CustomSkull.getItem("eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGI2YTcyMTM4ZDY5ZmJiZDJmZWEzZmEyNTFjYWJkODcxNTJlNGYxYzk3ZTVmOTg2YmY2ODU1NzFkYjNjYzAifX19"), "&rГаст", getName(), "&7Любимая еда: огненный заряд", "", "&rПравый клик: &7выпустить огненный шар"), "HOTBAR_PET_GHAST", new ItemStack(Material.FIRE_CHARGE), new ItemStack[]{
+		new GhastPet(new CustomItem(CustomSkull.getItem("eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGI2YTcyMTM4ZDY5ZmJiZDJmZWEzZmEyNTFjYWJkODcxNTJlNGYxYzk3ZTVmOTg2YmY2ODU1NzFkYjNjYzAifX19"), "&rГаст", getName(), "&7Любимая еда: огненный заряд", "", "&rПравый клик: &7выпустить огненный шар", "&7и получить огнестойкость"), "HOTBAR_PET_GHAST", new ItemStack(Material.FIRE_CHARGE), new ItemStack[]{
 				new ItemStack(Material.GHAST_TEAR), new ItemStack(Material.DIAMOND), new ItemStack(Material.GHAST_TEAR),
 				new ItemStack(Material.QUARTZ_BLOCK), new ItemStack(Material.BLAZE_POWDER), new ItemStack(Material.QUARTZ_BLOCK),
 				SlimefunItems.GOLD_24K, new ItemStack(Material.TNT), SlimefunItems.GOLD_24K
