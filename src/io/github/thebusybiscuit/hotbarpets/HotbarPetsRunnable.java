@@ -34,7 +34,7 @@ public class HotbarPetsRunnable implements Runnable {
 
 				if (chicken != null && SlimefunManager.isItemSimiliar(item, chicken.getItem(), true)) {
 					if (!p.getInventory().containsAtLeast(chicken.getFavouriteFood(), 1)) {
-						p.sendMessage(ChatColor.translateAlternateColorCodes('&', "&9Your &rChicken Pet &9would have helped you if you did not neglect it by not feeding it :("));
+						p.sendMessage(ChatColor.translateAlternateColorCodes('&', "&9Питомец &rКурица &9помог бы, если бы Вы не забывали кормить его :("));
 					} 
 					else {
 						p.getInventory().removeItem(chicken.getFavouriteFood());
@@ -44,7 +44,7 @@ public class HotbarPetsRunnable implements Runnable {
 				}
 				else if (mooshroom != null && SlimefunManager.isItemSimiliar(item, mooshroom.getItem(), true)) {
 					if (!p.getInventory().containsAtLeast(mooshroom.getFavouriteFood(), 1)) {
-						p.sendMessage(ChatColor.translateAlternateColorCodes('&', "&9Your &dMooshroom Pet &9would have helped you if you did not neglect it by not feeding it :("));
+						p.sendMessage(ChatColor.translateAlternateColorCodes('&', "&9Питомец &dГрибная корова &9помог бы, если бы Вы не забывали кормить его :("));
 					} 
 					else {
 						p.getInventory().removeItem(mooshroom.getFavouriteFood());
@@ -54,7 +54,7 @@ public class HotbarPetsRunnable implements Runnable {
 				}
 				else if (fish != null && SlimefunManager.isItemSimiliar(item, fish.getItem(), true)) {
 					if (!p.getInventory().containsAtLeast(fish.getFavouriteFood(), 1)) {
-						p.sendMessage(ChatColor.translateAlternateColorCodes('&', "&9Your &3Fish Pet &9would have helped you if you did not neglect it by not feeding it :("));
+						p.sendMessage(ChatColor.translateAlternateColorCodes('&', "&9Питомец &3Рыба &9помог бы, если бы Вы не забывали кормить его :("));
 					} 
 					else {
 						p.getInventory().removeItem(fish.getFavouriteFood());
@@ -64,7 +64,7 @@ public class HotbarPetsRunnable implements Runnable {
 				}
 				else if (goldenCow != null && SlimefunManager.isItemSimiliar(item, goldenCow.getItem(), true)) {
 					if (!p.getInventory().containsAtLeast(goldenCow.getFavouriteFood(), 1)) {
-						p.sendMessage(ChatColor.translateAlternateColorCodes('&', "&9Your &6Golden Cow Pet &9would have helped you if you did not neglect it by not feeding it :("));
+						p.sendMessage(ChatColor.translateAlternateColorCodes('&', "&9Питомец &6Золотая корова &9помог бы, если бы Вы не забывали кормить его :("));
 					} 
 					else {
 						p.getInventory().removeItem(goldenCow.getFavouriteFood());

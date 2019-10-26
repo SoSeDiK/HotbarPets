@@ -24,7 +24,7 @@ public abstract class SimpleBasePet extends HotbarPet {
 			public boolean onRightClick(ItemUseEvent e, Player p, ItemStack item) {
 				if (SlimefunManager.isItemSimiliar(item, getItem(), true)) {
 					if (!p.getInventory().containsAtLeast(getFavouriteFood(), 1)) {
-						p.sendMessage(ChatColor.translateAlternateColorCodes('&', "&9Your &r" + getItem().getItemMeta().getDisplayName() + " &9would have helped you if you did not neglect it by not feeding it :("));
+						p.sendMessage(ChatColor.translateAlternateColorCodes('&', "&9Питомец &r" + getItem().getItemMeta().getDisplayName() + " &9помог бы, если бы Вы не забывали кормить его :("));
 					} 
 					else {
 						p.getInventory().removeItem(getFavouriteFood());

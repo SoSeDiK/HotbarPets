@@ -92,7 +92,7 @@ public class HotbarPetsListener implements Listener {
 			if (pig != null && SlimefunManager.isItemSimiliar(item, pig.getItem(), true)) {
 
 				if (!p.getInventory().containsAtLeast(pig.getFavouriteFood(), 1)) {
-					p.sendMessage(ChatColor.translateAlternateColorCodes('&', "&9Your &5Pig Pet &9would have helped you if you did not neglect it by not feeding it :("));
+					p.sendMessage(ChatColor.translateAlternateColorCodes('&', "&9Питомец &5Свинья &9помог бы, если бы Вы не забывали кормить его :("));
 					return;
 				}
 
@@ -121,7 +121,7 @@ public class HotbarPetsListener implements Listener {
 				ItemStack item = p.getInventory().getItem(i);
 
 				if (eyamaz != null && SlimefunManager.isItemSimiliar(item, eyamaz.getItem(), true)) {
-					e.getEntity().getLocation().getWorld().dropItemNaturally(e.getEntity().getLocation(), new CustomItem(new ItemStack(Material.PUMPKIN_PIE), "&bSoul Pie"));
+					e.getEntity().getLocation().getWorld().dropItemNaturally(e.getEntity().getLocation(), new CustomItem(new ItemStack(Material.PUMPKIN_PIE), "&bПирог душ"));
 				}
 			}
 		}
@@ -136,7 +136,7 @@ public class HotbarPetsListener implements Listener {
 			
 				if (!protection.hasPermission(attacker, e.getEntity().getLocation(), ProtectableAction.PVP)) {
 					e.setCancelled(true);
-					attacker.sendMessage(ChatColor.DARK_RED + "You cannot harm Players in here!");
+					attacker.sendMessage(ChatColor.DARK_RED + "Здесь нельзя вредить игрокам!");
 				}
 			}
 		}
@@ -156,7 +156,7 @@ public class HotbarPetsListener implements Listener {
 				{
 					if (creeper != null && SlimefunManager.isItemSimiliar(item, creeper.getItem(), true)) {
 						if (!p.getInventory().containsAtLeast(creeper.getFavouriteFood(), 1)) {
-							p.sendMessage(ChatColor.translateAlternateColorCodes('&', "&9Your &2Creeper Pet &9would have helped you if you did not neglect it by not feeding it :("));
+							p.sendMessage(ChatColor.translateAlternateColorCodes('&', "&9Питомец &2Крипер &9помог бы, если бы Вы не забывали кормить его :("));
 							return;
 						}
 
@@ -170,7 +170,7 @@ public class HotbarPetsListener implements Listener {
 				{
 					if (magmacube != null && SlimefunManager.isItemSimiliar(item, magmacube.getItem(), true)) {
 						if (!p.getInventory().containsAtLeast(magmacube.getFavouriteFood(), 1)) {
-							p.sendMessage(ChatColor.translateAlternateColorCodes('&', "&9Your &4Magma Cube Pet &9would have helped you if you did not neglect it by not feeding it :("));
+							p.sendMessage(ChatColor.translateAlternateColorCodes('&', "&9Питомец &4Магмовый куб &9помог бы, если бы Вы не забывали кормить его :("));
 							return;
 						}
 
@@ -187,7 +187,7 @@ public class HotbarPetsListener implements Listener {
 				{
 					if (slime != null && SlimefunManager.isItemSimiliar(item, slime.getItem(), true)) {
 						if (!p.getInventory().containsAtLeast(slime.getFavouriteFood(), 1)) {
-							p.sendMessage(ChatColor.translateAlternateColorCodes('&', "&9Your &aSlime Pet &9would have helped you if you did not neglect it by not feeding it :("));
+							p.sendMessage(ChatColor.translateAlternateColorCodes('&', "&9Питомец &aСлизень &9помог бы, если бы Вы не забывали кормить его :("));
 							return;
 						}
 
@@ -198,7 +198,7 @@ public class HotbarPetsListener implements Listener {
 
 					if (mrCookieSlime != null && SlimefunManager.isItemSimiliar(item, mrCookieSlime.getItem(), true)) {
 						if (!p.getInventory().containsAtLeast(mrCookieSlime.getFavouriteFood(), 1)) {
-							p.sendMessage(ChatColor.translateAlternateColorCodes('&', "&9Your &amrCookieSlime Pet &9would have helped you if you did not neglect it by not feeding it :("));
+							p.sendMessage(ChatColor.translateAlternateColorCodes('&', "&9Питомец &aПеченюшка &9помог бы, если бы Вы не забывали кормить его :("));
 							return;
 						}
 
@@ -212,7 +212,7 @@ public class HotbarPetsListener implements Listener {
 				{
 					if (wither != null && SlimefunManager.isItemSimiliar(item, wither.getItem(), true)) {
 						if (!p.getInventory().containsAtLeast(wither.getFavouriteFood(), 1)) {
-							p.sendMessage(ChatColor.translateAlternateColorCodes('&', "&9Your &8Wither Pet &9would have helped you if you did not neglect it by not feeding it :("));
+							p.sendMessage(ChatColor.translateAlternateColorCodes('&', "&9Питомец &8Визер &9помог бы, если бы Вы не забывали кормить его :("));
 							return;
 						}
 
@@ -227,7 +227,7 @@ public class HotbarPetsListener implements Listener {
 				{
 					if (walshrus != null && SlimefunManager.isItemSimiliar(item, walshrus.getItem(), true)) {
 						if (!p.getInventory().containsAtLeast(walshrus.getFavouriteFood(), 1)) {
-							p.sendMessage(ChatColor.translateAlternateColorCodes('&', "&9Your &bWalshrus Pet &9would have helped you if you did not neglect it by not feeding it :("));
+							p.sendMessage(ChatColor.translateAlternateColorCodes('&', "&9Питомец &bМорж &9помог бы, если бы Вы не забывали кормить его :("));
 							return;
 						}
 
@@ -241,7 +241,7 @@ public class HotbarPetsListener implements Listener {
 				{
 					if (blaze != null && SlimefunManager.isItemSimiliar(item, blaze.getItem(), true)) {
 						if (!p.getInventory().containsAtLeast(blaze.getFavouriteFood(), 1)) {
-							p.sendMessage(ChatColor.translateAlternateColorCodes('&', "&9Your &6Blaze Pet &9would have helped you if you did not neglect it by not feeding it :("));
+							p.sendMessage(ChatColor.translateAlternateColorCodes('&', "&9Питомец &6Ифрит &9помог бы, если бы Вы не забывали кормить его :("));
 							return;
 						}
 
