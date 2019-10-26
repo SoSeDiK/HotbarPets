@@ -24,7 +24,7 @@ public final class BossMobs implements PetGroup {
 
 	@Override
 	public void load(HotbarPets plugin) throws Exception {
-		new EnderDragonPet(new CustomItem(Material.DRAGON_HEAD, "&5Эндер-дракон", getName(), "&7Любимая еда: око Эндера", "", "&rПравый клик: &7выпустить огненный шар и получить сопротивление"), "HOTBAR_PET_DRAGON", new ItemStack(Material.ENDER_EYE), new ItemStack[]{
+		new EnderDragonPet(new CustomItem(Material.DRAGON_HEAD, "&5Эндер-дракон", getName(), "&7Любимая еда: око Эндера", "", "&rПравый клик: &7выпустить огненный шар", "&7и получить сопротивление"), "HOTBAR_PET_DRAGON", new ItemStack(Material.ENDER_EYE), new ItemStack[]{
 				new ItemStack(Material.PRISMARINE_CRYSTALS), new ItemStack(Material.DRAGON_BREATH), new ItemStack(Material.PRISMARINE_CRYSTALS),
 				SlimefunItems.ENDER_LUMP_3, new ItemStack(Material.DRAGON_HEAD), SlimefunItems.ENDER_LUMP_3,
 				new ItemStack(Material.PRISMARINE_CRYSTALS), new ItemStack(Material.DRAGON_BREATH), new ItemStack(Material.PRISMARINE_CRYSTALS)
