@@ -32,7 +32,7 @@ public final class SpecialPets implements PetGroup {
 				SlimefunItems.GOLD_20K, SlimefunItems.GOLD_20K, SlimefunItems.GOLD_20K
 		}).register();
 
-		new CookieSlimePet(new CustomItem(CustomSkull.getItem("eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTY3MDlkODdlODVkMTUzYmI4ODNhMjNhNWE4ODNlZTQ0ZGRiMjg0ZDUzMThiNzgwYTE2ZTgyYTlkYWM2NTEifX19"), "&aМистер Печенюшка", getName(), "&7Любимая еда: печенье", "", "&rImmune to Fall Damage", "&rПравый клик: &7получить регенерацию"), "HOTBAR_PET_MRCOOKIESLIME", new ItemStack(Material.COOKIE), new ItemStack[]{
+		new CookieSlimePet(new CustomItem(CustomSkull.getItem("eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTY3MDlkODdlODVkMTUzYmI4ODNhMjNhNWE4ODNlZTQ0ZGRiMjg0ZDUzMThiNzgwYTE2ZTgyYTlkYWM2NTEifX19"), "&aМистер Печенюшка", getName(), "&7Любимая еда: печенье", "", "&rНевосприимчивость к падениям", "&rПравый клик: &7получить регенерацию"), "HOTBAR_PET_MRCOOKIESLIME", new ItemStack(Material.COOKIE), new ItemStack[]{
 				new ItemStack(Material.COOKIE), new ItemStack(Material.DIAMOND), new ItemStack(Material.COOKIE),
 				new ItemStack(Material.DIAMOND), new ItemStack(Material.EMERALD), new ItemStack(Material.DIAMOND),
 				SlimefunItems.GOLD_20K, SlimefunItems.GOLD_20K, SlimefunItems.GOLD_20K
@@ -50,7 +50,7 @@ public final class SpecialPets implements PetGroup {
 				SlimefunItems.GOLD_20K, SlimefunItems.GOLD_20K, SlimefunItems.GOLD_20K
 		}).register();
 
-		new HotbarPet(new CustomItem(CustomSkull.getItem("eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTg0NzRmN2E2YzEzOWYxY2NkNzM1YTQ2NzdjMDQ1M2M0YmVmZWRmYzg5ZmVkYTQ5ZWE4ODZlYjE4ZGRmNmNkZiJ9fX0="), "&4Смерть", getName(), "&7Любимая еда: души", "", "&rОстерегайтесь! Готовит пирог", "&rиз душ убитых игроков"), "HOTBAR_PET_EYAMAZ", new ItemStack(Material.SOUL_SAND), new ItemStack[]{
+		new HotbarPet(new CustomItem(CustomSkull.getItem("eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTg0NzRmN2E2YzEzOWYxY2NkNzM1YTQ2NzdjMDQ1M2M0YmVmZWRmYzg5ZmVkYTQ5ZWE4ODZlYjE4ZGRmNmNkZiJ9fX0="), "&4Смерть", getName(), "&7Любимая еда: души &o(убитые игроки)", "", "&rОстерегайтесь! Готовит пирог", "&rиз душ убитых игроков"), "HOTBAR_PET_EYAMAZ", new ItemStack(Material.SOUL_SAND), new ItemStack[]{
 				new ItemStack(Material.SOUL_SAND), new ItemStack(Material.DIAMOND), new ItemStack(Material.SOUL_SAND),
 				new ItemStack(Material.DIAMOND), new ItemStack(Material.EMERALD), new ItemStack(Material.DIAMOND),
 				SlimefunItems.GOLD_20K, SlimefunItems.GOLD_20K, SlimefunItems.GOLD_20K

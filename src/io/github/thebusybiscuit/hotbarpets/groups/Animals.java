@@ -38,7 +38,7 @@ public final class Animals implements PetGroup {
 				new ItemStack(Material.COD), SlimefunItems.GOLD_16K, new ItemStack(Material.COD)
 		}).register();
 
-		new RabbitPet(new CustomItem(CustomSkull.getItem("eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmYxNTU5MTk0YTE3NTkzNWI4YjRmZWE2NjE0YmVjNjBiZjgxY2Y1MjRhZjZmNTY0MzMzYzU1NWU2NTdiYyJ9fX0="), "&eКролик", getName(), "&7Любимая еда: морковь", "", "&rПравый клик: &7получить 30 секун удачи"), "HOTBAR_PET_RABBIT", new ItemStack(Material.CARROT), new ItemStack[] {
+		new RabbitPet(new CustomItem(CustomSkull.getItem("eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmYxNTU5MTk0YTE3NTkzNWI4YjRmZWE2NjE0YmVjNjBiZjgxY2Y1MjRhZjZmNTY0MzMzYzU1NWU2NTdiYyJ9fX0="), "&eКролик", getName(), "&7Любимая еда: морковь", "", "&rПравый клик: &7получить 30 секунд удачи"), "HOTBAR_PET_RABBIT", new ItemStack(Material.CARROT), new ItemStack[] {
 				new ItemStack(Material.GOLDEN_CARROT), new ItemStack(Material.RABBIT_HIDE), new ItemStack(Material.GOLDEN_CARROT),
 				new ItemStack(Material.RABBIT_HIDE), new ItemStack(Material.DIAMOND), new ItemStack(Material.RABBIT_HIDE),
 				new ItemStack(Material.GOLDEN_CARROT), new ItemStack(Material.RABBIT_FOOT), new ItemStack(Material.GOLDEN_CARROT)
