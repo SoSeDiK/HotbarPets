@@ -38,7 +38,7 @@ public final class SpecialPets implements PetGroup {
 				SlimefunItems.GOLD_20K, SlimefunItems.GOLD_20K, SlimefunItems.GOLD_20K
 		}).register();
 
-		new PatriotPet(new CustomItem(CustomSkull.getItem("eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzhhNTY0NmM4NDczZTFiZjQ1NTEzYmU0ZTZlODY1NjA1MDY3MWI2NTEzM2MwMDQ4ZDQ4NGUxYmYwYjQ2Mjk1ZiJ9fX0="), "&5Патриот", getName(), "&7Любимая еда: нарост из Незера", "", "&rполучить, сопротивление, силу", "&rи насыщение"), "HOTBAR_PET_PATRIOT", new ItemStack(Material.NETHER_WART), new ItemStack[]{
+		new PatriotPet(new CustomItem(CustomSkull.getItem("eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzhhNTY0NmM4NDczZTFiZjQ1NTEzYmU0ZTZlODY1NjA1MDY3MWI2NTEzM2MwMDQ4ZDQ4NGUxYmYwYjQ2Mjk1ZiJ9fX0="), "&5Патриот", getName(), "&7Любимая еда: нарост из Незера", "", "&rПравый клик: &7получить, сопротивление, силу", "&rи насыщение"), "HOTBAR_PET_PATRIOT", new ItemStack(Material.NETHER_WART), new ItemStack[]{
 				new ItemStack(Material.REDSTONE), SlimefunItems.MAGIC_LUMP_1, new ItemStack(Material.REDSTONE),
 				SlimefunItems.MAGIC_LUMP_1, SlimefunItems.RAW_CARBONADO, SlimefunItems.MAGIC_LUMP_1,
 				SlimefunItems.GOLD_4K, new ItemStack(Material.REDSTONE), SlimefunItems.GOLD_4K
